@@ -91,6 +91,44 @@ body{
     background-color:rgb(255, 116, 116);
     margin-bottom: 0px;
     border-radius: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.row1{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.row2{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    display: none;
+}
+.not{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.deliveryimage{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+.id,.name,.restaurant,.hostel,.dob{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
 }
 .backimage{
     width: 90%;
